@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/* 100, 300, 400, 700 */
+	font-family: 'Poppins', sans-serif;
+	background: #F7F7F7;
+}
+
+/* =============================== index.php =============================== */
+
+.container {
+	max-width: 600px;
+	height: auto;
+	padding: 30px;
+	margin: 30px auto 50px auto;
+	box-shadow: 13px 11px 35px -1px rgba(0,0,0,0.17);
+	border-radius: 10px;
+	background: white;
+	border-top: 5px solid #FFD23A;
+}
+
+.container h1, .login-form h1 {
+	text-align: center;
+}
+
+.container h2, .login-form h3 {
+	padding: 10px;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.container input, 
+.login-form input,
+.lower input {
+	padding: 10px;
+	width: 90%;
+	font-size: 20px;
+	margin: 5px 10px 5px 10px;
+}
+
+.container input:focus, 
+.login-form input:focus,
+.lower input:focus {
+	outline: none;
+}
+
+.container input[type=submit], 
+.login-form input[type=submit] {
+	margin: 20px 10px 10px 10px;
+	width: 94%;
+	background: #FFD23A;
+	color: white;
+	border: none;
+	padding: 20px;
+}
+
+.container input[type=submit]:hover,
+.login-form input[type=submit]:hover {
+	background: #D9B331;
+	cursor: pointer;
+}
+
+.err {
+	color: red;
+}
+
+/* =============================== login.php =============================== */
+
+.login-form {
+	max-width: 600px;
+	height: auto;
+	padding: 20px;
+	margin: 10% auto 50px auto;
+	box-shadow: 13px 11px 35px -1px rgba(0,0,0,0.17);
+	border-radius: 10px;
+	background: white;
+	border-top: 5px solid #FFD23A;
+}
+
+.login-form h1 {
+	font-weight: 700;
+	font-size: 26px;
+}
+
+.login-form h3 {
+	font-weight: 300;
+}
+
+.login-form input {
+	width: 90%;
+	margin: 15px 10px 15px 10px;
+	height: auto;
+}
+
+
+/* =============================== user.php =============================== */
+
+.user-container {
+	max-width: 800px;
+	height: auto;
+	margin: 30px auto 50px auto;
+	box-shadow: 13px 11px 35px -1px rgba(0,0,0,0.17);
+	border-radius: 10px;
+	background: white;
+	border-top: 5px solid #FFD23A;
+}
+
+.upper, .lower {
+	width: auto;
+	height: auto;
+	padding: 20px;
+}
+
+.upper h1, .lower h1 {
+	font-size: 26px;
+}
+
+.upper h2, .lower h2 {
+	font-size: 20px;
+	padding: 13px;
+	font-weight: 400;
+}
+
+.upper input[type=submit], 
+.lower input[type=submit] {
+	margin: 20px auto 10px auto;
+	display: block;
+	width: 40%;
+	background: #FFD23A;
+	color: white;
+	border: none;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.upper input[type=submit]:hover,
+.lower input[type=submit]:hover {
+	background: #D9B331;
+	cursor: pointer;
+}
+
+.lower {
+	border-top: 2px solid #FEE17E;
+}
+
+.success {
+	color: green;
+}

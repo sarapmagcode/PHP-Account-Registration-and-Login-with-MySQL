@@ -58,7 +58,7 @@
 				// check email format
 				$email_checker = false;
 			} elseif (!checknum($contact_number)) {
-				// number must be digits and exactly 11 digits
+				// number must be exactly 11 digits
 				$number_checker = false;
 			} else {
 				include 'connection.php';
